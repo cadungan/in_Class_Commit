@@ -1,0 +1,45 @@
+
+
+body {
+    margin: 10px;
+    padding: 0;
+    background-color: #efeee7;
+    font: "Georgia", "Times New Roman", serif;
+    font-color: #333333;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+header {
+    background-color: #333333;
+}
+
+h1 {
+    margin:0;
+    color: #eee;
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 0;
+}
+p {
+    color: blue;
+}
+#bio-image {
+    float: left;
+    margin-right: 12px;
+}
+#contact-info {
+    float: right;
+    width: 33%;
+    border: 1px solid red;
+}
+#main-bio {
+    float:left;
+    width: 66%;
+    border-right: 1px solid red;
+}
+.student_name {
+color: orangered
+}
